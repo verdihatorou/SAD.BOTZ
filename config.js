@@ -9,11 +9,11 @@ global.owner = [
   ['+62 813-8844-5169'],
   ['+62 813-8844-5169'],
   ['+62 813-8844-5169'],
-  ['+62 813-8844-5169', 'Letta', true],
-  ['6281388445169', 'Papah-Chan', true],
-  ['+62 813-8844-5169', 'Bot', true],
-  ['+62 813-8844-5169', 'Johannes', true],
-  ['+62 813-8844-5169', 'Krisna', true],
+  ['+62 813-8844-5169', 'Hai', true],
+  ['6281388445169', 'Nanaku', true],
+  ['+62 813-8844-5169', 'Anggara', true],
+  ['+62 813-8844-5169', 'Panggil aja', true],
+  ['+62 813-8844-5169', 'Jaka', true],
   // [number, dia creator/owner?, dia developer?]
 ] // Put your number here
 global.mods = [] // Want some help?
@@ -55,7 +55,7 @@ global.bottime = `𝗧 𝗜 𝗠 𝗘 : ${moment.tz('Asia/Jakarta').format('HH:m
 global.titlebot = `⫹⫺ Time Sever : ${moment.tz('Asia/Jakarta').format('HH:mm:ss')}\n⫹⫺ Date Server :  ${moment.tz('Asia/Jakarta').format('DD/MM/YY')}
 `
 
-global.author = '                「 ꜱᴀᴅ BOT あ⁩ 」'
+global.author = '                「 CntkaBotz あ⁩ 」'
 
 global.thumbnailUrl = [
   'https://telegra.ph/file/81260a8b9e8cff26d2b48.jpg', 'https://telegra.ph/file/ac4928f0824a2a0492737.jpg',
