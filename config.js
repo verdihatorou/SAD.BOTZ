@@ -9,11 +9,18 @@ global.owner = [
   ['+62 813-8844-5169'],
   ['+62 813-8844-5169'],
   ['+62 813-8844-5169'],
-  ['+62 813-8844-5169', 'Hai', true],
-  ['6281388445169', 'Nanaku', true],
-  ['+62 813-8844-5169', 'Anggara', true],
-  ['+62 813-8844-5169', 'Panggil aja', true],
-  ['+62 813-8844-5169', 'Jaka', true],
+  ['+62 813-8844-5169', 'A• Hai', true],
+  ['6281388445169', 'B• Namaku', true],
+  ['+62 813-8844-5169', 'C• Anggara', true],
+  ['+62 813-8844-5169', 'D• Panggil aja', true],
+  ['+62 813-8844-5169', 'E• Jaka', true],
+  ['+62 813-8844-5169', 'F• Salam Kenal', true],
+  ['+62 813-8844-5169', 'G• Sorry ya', true],
+  ['+62 813-8844-5169', 'H• Kebanyakan', true],
+  ['+62 813-8844-5169', 'I• Hehe', true],
+  ['+62 813-8844-5169', 'J• Em Anu', true],
+  ['+62 813-8844-5169', 'K• Sv dong', true],
+  ['+62 813-8844-5169', 'L• Butkon nih', true],
   // [number, dia creator/owner?, dia developer?]
 ] // Put your number here
 global.mods = [] // Want some help?
