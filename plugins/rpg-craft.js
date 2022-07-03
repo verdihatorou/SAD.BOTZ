@@ -10,56 +10,25 @@ let handler  = async (m, { conn, command, args, usedPrefix, DevMode }) => {
   let botol = global.botwm
 
 let lgocraft = `
-█▀▀▀▀█▀▀▀▀█▀▀▀▀█
-█────█────█────█
-█▄▄▄▄█▄▄▄▄█▄▄▄▄█
-█▀▀▀▀█▀▀▀▀█▀▀▀▀█
-█────█────█────█
-█▄▄▄▄█▄▄▄▄█▄▄▄▄█
-█▀▀▀▀█▀▀▀▀█▀▀▀▀█
-█────█────█────█
-█▄▄▄▄█▄▄▄▄█▄▄▄▄█`
-
+━━━━━〔 ıll Hai kak llı 〕━━━━━`
   let caption = `
-▧ Pickaxe ⛏️
-▧ Sword ⚔️
-▧ Fishingrod 🎣
+SILAKAN PENCET MENU DI BAWAH
 
-*❏ RECIPE*
-▧ Pickaxe ⛏️
-〉 10 Kayu
-〉 5 Batu
-〉 5 Iron
-〉 20 String
-
-▧ Sword ⚔️
-〉 10 Kayu
-〉 15 Iron
-
-▧ Fishingrod 🎣
-〉 10 Kayu
-〉 2 Iron
-〉 20 String
-
-▧ Armor 🥼
-〉 30 Iron
-〉 1 Emerald
-〉 5 Diamond
-
-▧ Atm 💳
-〉3 Emerald
-〉6 Diamond
-〉10k Money
-`
+*❏ RULES*
+▧ Jangan spam
+〉 Jangan Hina bot
+〉 Jangan Telfon bot
+〉 Jika Bot Tidak Respon Lakukan sekali lagi
+〉 *Created by* _*© Anggara*_`
 const sections = [
    {
-	title: "CRAFT A TOOLS",
+	title: "SILAHKAN PILIH",
 	rows: [
-	    {title: "SWORD ⚔️", rowId: ".craft sword", description: "Crafting A Sword"},
-	    {title: "PICKAXE ⛏️", rowId: ".craft pickaxe", description: "Crafting A Pickaxe"},
-	    {title: "FISHINGROD 🎣", rowId: ".craft fishingrod", description: "Crafting A Fishingrod"},
-	    {title: "ARMOR 🥼", rowId: ".craft armor", description: "Crafting A Armor"},
-	    {title: "ATM 💳", rowId: ".craft atm", description: "Crafting A Atm (but that's ilegal)"},
+	    {title: "ALLMENU💌", rowId: ".m", description: "Menampilkan Semua Menu "},
+	    {title: "PEMILIK BOT🗿", rowId: ".owner", description: "Kenalan Yok Siapa Tau Nyaman"},
+	    {title: "SOURCE CODE ✨", rowId: ".sc", description: "Menampilkan Sc Bot"},
+	    {title: "GROUP BOT OFC", rowId: ".gcbott", description: "Join Lah Biar Rame:v"},
+	    {title: "SEWA BOT👌", rowId: ".sewaa", description: "Harga Dijamin Murah"},
 	]
     },
 ]
@@ -68,7 +37,7 @@ const listMessage = {
   text: caption,
   footer: wm,
   title: lgocraft,
-  buttonText: " C R A F T ",
+  buttonText: " KLIK DISINI",
   sections
 }
 
