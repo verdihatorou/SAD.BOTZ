@@ -19,9 +19,9 @@ if (m.isBaileys) return
             await this.sendMessage(m.chat, { sticker : stc, thumbnail: await( await fetch(pp)).buffer() , contextInfo:{  externalAdReply: { showAdAttribution: true,
 mediaType:  1,
 mediaUrl: 'https://wa.me/17608914335',
-title: '「 ❔ 」',
+title: 'Ada Apa Ya Kak?',
 body: wm,
-sourceUrl: 'http://github.com/FahriAdison', thumbnail: await( await fetch(pp)).buffer()
+sourceUrl: 'http://github.com/Ipulpachri', thumbnail: await( await fetch(pp)).buffer()
  //Kalo mau ada pp dari sender/pengirimnya
  //Kalo mau ringan pake global.thumb                                                                                                              
                                                                                                                
