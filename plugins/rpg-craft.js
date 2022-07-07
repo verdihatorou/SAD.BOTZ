@@ -19,7 +19,7 @@ SILAKAN PENCET MENU DI BAWAH
 〉 Jangan Hina bot
 〉 Jangan Telfon bot
 〉 Jika Bot Tidak Respon Lakukan sekali lagi
-〉 *Created by* _*© Anggara*_`
+〉 *Created by* _*© Fachri*_`
 const sections = [
    {
 	title: "SILAHKAN PILIH",
@@ -116,8 +116,8 @@ const listMessage = {
   }
 }
 
-handler.help = ['craft']
-handler.tags = ['rpg']
-handler.command = /^(craft|crafting|chant)/i
+handler.help = ['menu']
+handler.tags = ['general']
+handler.command = /^(menu)/i
 
 export default handler
