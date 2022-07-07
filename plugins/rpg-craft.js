@@ -116,8 +116,8 @@ const listMessage = {
   }
 }
 
-handler.help = ['menu']
-handler.tags = ['main']
-handler.command = /^(menu)/i
+handler.help = ['craft']
+handler.tags = ['rpg']
+handler.command = /^(craft|crafting|chant)/i
 
 export default handler
