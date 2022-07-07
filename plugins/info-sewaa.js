@@ -4,10 +4,10 @@ let pp = await conn.profilePictureUrl(m.chat).catch(_ => null)
 let pepe = pp ? await (await fetch(pp)).buffer() : Buffer.alloc(0)
 let str = `Hai ${conn.getName(m.sender)} Mau Sewa?
 *SEWA BOT*
-┏━━〔 ıll HARGA llı 〕━
-┃⌬ 15K PERMANEN
+┏━━〔 ıll LIST HARGA llı 〕━
+┃⌬ 20K PERMANEN
 ┃⌬ VIA DANA/GOPAY
-┃⌬ VIA PULSA {+5K}
+┃⌬ VIA PULSA 15K
 ┗━━━━━━━━━━━━━㉿
 ┏━━〔 ıll KELEBIHAN llı 〕━
 ◎ BOT ON 24 JAM NONSTOP
@@ -15,9 +15,8 @@ let str = `Hai ${conn.getName(m.sender)} Mau Sewa?
 ◎ FAST RESPON
 ◎ DAN LAIN LAIN
 ◎ MINAT? HUBUNGI OWNER
-┗━━━━━━━━━━━━━
-   ♡ ㅤ     ❍ㅤ       ⎙ㅤ       ⌲ `
-conn.sendHydrated(m.chat, str, wm, pepe, 'https://instagram.com/itsme_nitsu', 'IG OWNER', null, null, [
+┗━━━━━━━━━━━━━`
+conn.sendHydrated(m.chat, str, wm, pepe, urlnya, 'IG OWNER', null, null, [
 ['OWNER', '/owner']
 ], m)
 
