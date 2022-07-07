@@ -108,7 +108,7 @@ let handler = async (m, { conn, usedPrefix: _p }) => {
     sourceUrl: sgc,
 }
 } })
-conn.sendFile(m.chat, vn, 'dj1.mp3', null, m, true, {
+conn.sendFile(m.chat, vn, 'dj1.mp3', null, fkon, true, {
 type: 'audioMessage', 
 ptt: true 
 })
