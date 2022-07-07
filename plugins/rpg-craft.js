@@ -24,7 +24,7 @@ const sections = [
    {
 	title: "SILAHKAN PILIH",
 	rows: [
-	    {title: "ALLMENU", rowId: ".m", description: "Menampilkan Semua Menu "},
+	    {title: "ALLMENU", rowId: ".menu", description: "Menampilkan Semua Menu "},
 	    {title: "PEMILIK BOT", rowId: ".owner", description: "Kenalan Yok Siapa Tau Nyaman"},
 	    {title: "SOURCE CODE", rowId: ".sc", description: "Menampilkan Sc Bot"},
 	    {title: "GROUP BOT OFC", rowId: ".gcbott", description: "Join Lah Biar Rame:v"},
