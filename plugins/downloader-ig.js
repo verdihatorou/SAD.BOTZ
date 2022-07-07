@@ -8,7 +8,7 @@ let handler = async (m, { args }) => {
         .catch(async _ => await scraper.instagramdlv4(args[0]))
     if (!res) throw 'Can\'t download the post'
     await m.reply('_In progress, please wait..._')
-    for (let { url } of res) await m.conn.sendFile(m.chat, url, '', '', m)
+    for (let { url } of res) await m.conn.sendFile(m.chat, url, '', '', fkontak)
 }
 handler.help = ['instagram']
 handler.tags = ['downloader']
