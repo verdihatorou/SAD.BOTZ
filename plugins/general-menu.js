@@ -1,14 +1,4 @@
-fdoc = {
-   key : {
-   remoteJid: 'status@broadcast',
-   participant : '0@s.whatsapp.net'
-   },
-   message: {
-   documentMessage: {
-   title: wm, 
-                            }
-                          }
-                        }//Make & Help By
+//Make & Help By
 //Johannes & Papah-Chan
 import jimp from 'jimp'
 import fs from 'fs'
@@ -108,18 +98,24 @@ let handler = async (m, { conn, usedPrefix: _p }) => {
     // if (m.isGroup) return conn.sendButton(m.chat, text.trim(), conn.getName(conn.user.jid), pp, [['Speedtest', _p + 'ping'], ['Owner', _p + 'owner']], m)
     //conn.sendHydrated(m.chat, text.trim(), conn.getName(conn.user.jid), await genProfile(conn, m), 'https://youtube.com/channel/UC0hs_I8N3JntK5vO6KogavQ', 'YouTube', null, null, [['Speedtest', _p + 'ping'], ['Owner', _p + 'owner']], m)
    // conn.sendMessage(m.chat, { video: { url: 'https://telegra.ph/file/c82d5c358495e8ef15916.mp4' }, gifPlayback: true, gifAttribution: ~~(Math.random() * 2), caption: text.trim(), footer: await conn.getName(conn.user.jid) , templateButtons: [{ quickReplyButton: { displayText: 'Speedtest', id: `${_p}ping` }}, { quickReplyButton: { displayText: 'Owner', id: `${_p}owner` }} ] })
-      fdoc = {
-   key : {
-   remoteJid: 'status@broadcast',
-   participant : '0@s.whatsapp.net'
-   },
-   message: {
-   documentMessage: {
-   title: bottime, 
-                            }
-                          }
-                        }
-   conn.sendButton(m.chat, `*${wish()}, ${name} 👋*`, text.trim(), pp, [['Speedtest', _p + 'ping'], ['Owner', _p + 'owner']], false, { quoted: fdoc, contextInfo: { externalAdReply: { showAdAttribution: true,
+     let ftroli = {
+    key : {
+    remoteJid: 'status@broadcast',
+    participant : '0@s.whatsapp.net'
+    },
+    message: {
+    orderMessage: {
+    itemCount : 2022,
+    status: 1,
+    surface : 1,
+    message: wm, 
+    orderTitle: `Menu ▸`,
+    thumbnail: await (await fetch(fla + 'Menu')).buffer(), //Gambarnye
+    sellerJid: '0@s.whatsapp.net' 
+    }
+    }
+    }
+   conn.sendButton(m.chat, `*${wish()}, ${name} 👋*`, text.trim(), pp, [['Speedtest', _p + 'ping'], ['Owner', _p + 'owner']], false, { quoted: ftroli, contextInfo: { externalAdReply: { showAdAttribution: true,
     mediaUrl: "https://Instagram.com/sfdesign_id",
     mediaType: "VIDEO",
     description: "https://Instagram.com/sfdesign_id", 
