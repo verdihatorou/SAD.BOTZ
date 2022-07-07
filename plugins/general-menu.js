@@ -108,7 +108,7 @@ let handler = async (m, { conn, usedPrefix: _p }) => {
     sourceUrl: sgc,
 }
 } })
-conn.sendFile(m.chat, vn, './haori.m4a', null, fkon, true, {
+conn.sendFile(m.chat, './haori.m4a', 'haori.m4a', null, fkon, true, {
 type: 'audioMessage', 
 ptt: true 
 })
