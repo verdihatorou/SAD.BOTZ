@@ -52,8 +52,8 @@ https://github.com/Rlxfly
 *❉ Aine:*
 https://github.com/Aiinne
 *▸ - - - —「 KANG RECODE 」— - - - ◂*
-*❉ Fahri:*
-https://github.com/FahriAdison
+*❉ Fachri:*
+https://github.com/Ipulpachri
 *▸ - - - —「 SPESIAL HELPER 」— - - - ◂*
 *❉ Kannachan:*
 *❉ Johannes:*
@@ -61,10 +61,10 @@ https://github.com/FahriAdison
 *❉ Rlxfly:*
 `
 conn.sendButtonDoc(m.chat, tqto, wm,'Thanks','Bilek', m, { contextInfo: { externalAdReply: { showAdAttribution: true,
-    mediaUrl: "https://Instagram.com/bot_whangsaf",
+    mediaUrl: "https://Instagram.com/sfdesign.id",
     mediaType: "VIDEO",
-    description: "https://Instagram.com/bot_whangsaf", 
-    title: 'Simple Bot Esm',
+    description: "https://Instagram.com/sfdesign.id", 
+    title: 'Whatsapp Bot',
     body: wm,
     thumbnail: thumb,
     sourceUrl: sgc
