@@ -894,15 +894,15 @@ To turn off this feature, type
 
 global.dfail = (type, m, conn) => {
     let msg = {
-        rowner: '*Lu siapa?, Cuma Ayang Anggara Yang Bisa*',
-        owner: '*Lu siapa?, Cuma Ayang Anggara Yang Bisa*!',
-        mods: '*Lu siapa?, Cuma Ayang Anggara Yang Bisa*!',
+        rowner: '*Lu siapa?, Cuma Ayang Fachri Yang Bisa*',
+        owner: '*Lu siapa?, Cuma Ayang Fachri Yang Bisa*!',
+        mods: '*Lu siapa?, Cuma Ayang Fachri Yang Bisa*!',
         premium: '*Beli premium dulu lah, murah kok!*',
-        group: '*Bisa nya di Group🗿!*',
-        private: '*Bisanya di Private Chat!*',
+        group: '*Bisa nya di Group kak!*',
+        private: '*Bisanya di Private Chat kak!*',
         admin: '*Lu admin kah?, kalo bukan gk bisa cuy:v!*',
         botAdmin: '*Gw bukan admin "-_ Jadiin admin dulu lah!*',
-        unreg: 'Silahkan daftar untuk menggunakan fitur ini dengan cara mengetik:\n\n*#daftar nama.umur*\n\nContoh: *#daftar Manusia.16*',
+        unreg: 'Silahkan daftar untuk menggunakan fitur ini dengan cara mengetik:\n\n*#daftar nama.umur*\n\nContoh: *#daftar Fachri.16*',
         restrict: 'This feature is *disabled*!'
     }[type]
     if (msg) return conn.reply(m.chat, msg, m, { contextInfo: { externalAdReply: {title: global.wm, body: '404 Access denied!', sourceUrl: sgc, thumbnail: fs.readFileSync('./thumbnail.jpg') }}})
