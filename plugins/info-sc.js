@@ -3,16 +3,17 @@ let path = require('path')
 let fetch = require('node-fetch')
 let handler = async (m, { conn }) => {
 let vn = './bernyanyi.mp3'
-conn.sendFile(m.chat, vn, 'araara.m4a', null, m, true, {
+conn.sendFile(m.chat, vn, 'bernyanyi.mp3', null, m, true, {
 type: 'audioMessage', // paksa tanpa convert di ffmpeg
-ptt: true, contextInfo: { forwardingScore: 999, isForwarded: true,
-         externalAdReply: { 
-             title: 'Recorde Sendiri Kapan Bisa Nya Kalo Pakai Yang Orang',  
-             body: 'Belajar Recorde Sendiri Hargain Yang Buat Nya', 
-             description: '', 
-             mediaType: 2, 
-           thumbnail: await (await fetch('https://telegra.ph/file/1e2f25d05bcf67d31c73e.jpg')).buffer(), 
-          mediaUrl: `https://instagram.com/sfdesign_id` 
+ptt: true, contextInfo: { externalAdReply: { showAdAttribution: true,
+    mediaUrl: "https://Instagram.com/sfdesign_id",
+    mediaType: "VIDEO",
+    description: "https://Instagram.com/sfdesign_id", 
+    title: 'Recode Sendiri Yaw kak ><',
+    body: wm,
+    thumbnail: thumb,
+    sourceUrl: sgc
+} 
          } 
       } 
    })
