@@ -6,6 +6,7 @@ let str = ` ${conn.getName(m.sender)} Want Support Bot?
 Kalian bisa mendukung saya agar bot ini tetap up to date dengan:
 ┌〔 Donasi • Emoney 〕
 ├ Dana : 085713041886
+├ Indosat : 08159917553
 └────
 Berapapun donasi kalian akan sangat berarti 👍
 *Contact person Owner:*
