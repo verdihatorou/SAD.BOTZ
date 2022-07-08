@@ -4,7 +4,7 @@ import { exec } from 'child_process'
 let handler = async (m, { conn }) => {
 	if (m.quoted && /sticker/.test(m.quoted.mtype) && !m.quoted.isAnimated) {
 		let img = await m.quoted.download()
-		await conn.sendMessage(m.chat, { image: img, jpegThumbnail: img }, { quoted: m })
+		await conn.sendMessage(m.chat, { image: img, jpegThumbnail: img }, { quoted: fkontak })
 	} else if (m.quoted && /sticker/.test(m.quoted.mtype) && m.quoted.isAnimated) {
 		await m.reply('_In progress, please wait..._')
 		let img = await m.quoted.download()
