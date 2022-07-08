@@ -3,7 +3,7 @@ import path from 'path'
 
 let handler = async (m, { conn }) => {
 let vn = './media/Assalamualaikum.mp3'
-conn.sendFile(m.chat, vn, 'Assalamualaikum.mp3', null, fkontak, true, {
+conn.sendFile(m.chat, vn, 'Assalamualaikum.mp3', null, fakeig, true, {
 type: 'audioMessage', 
 ptt: true 
 })
