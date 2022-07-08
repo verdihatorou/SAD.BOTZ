@@ -8,11 +8,11 @@ import moment from 'moment-timezone'
 
 let tags = {}
 const defaultMenu = {
-  before: `\n❏ Date: %date\n❏ Time: %time \n❏ Runtime: %uptime\n%readmore`,
+  before: `\n❏› Date: %date\n❏› Time: %time \n❏› Runtime: %uptime\n%readmore`,
   header: '*❏═┅═━–〈 %category*',
   body: '┊々› %cmd %islimit %isPremium',
   footer: '┗━═┅═━––––––๑\n',
-  after: '',
+  after: '\n⌕ ❙❘❙❙❘❙❚❙❘❙❙❚❙❘❙❘❙❚❙❘❙❙❚❙❘❙❙❘❙❚❙❘ ⌕\n',
 }
 
 let handler = async (m, { conn, usedPrefix: _p }) => {
