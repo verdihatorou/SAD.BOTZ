@@ -1,5 +1,6 @@
 import fs from 'fs'
 let handler = async (m, { conn, args, command }) => {
+let str = `*RUNTIME BOT*\n${muptime}\n`
 	let _muptime
     if (process.send) {
       process.send('uptime')
@@ -9,8 +10,7 @@ let handler = async (m, { conn, args, command }) => {
       }) * 1000
     }
     let muptime = clockString(_muptime)
- m.reply(`*R U N T I M E*\n${muptime}\n`)
-
+ conn.sendButtonDoc(m.chat, str, wm, 'Owner','.owner', ftextt, m)
 }
 handler.help = ['runtime']
 handler.tags = ['info']
