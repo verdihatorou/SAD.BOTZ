@@ -1,27 +1,23 @@
 let handler = async (m, { conn }) => {
 let ppown = await conn.profilePictureUrl(nomorown + '@s.whatsapp.net', 'image').catch(_ => hwaifu[1]) 
 let teksbio = `*───────[ BIODATA OWNER ]───────*
-*💌 Nama* : Sad-Bot
-*✉️ Nama RL* : Fahri
+*✉️ Nama* : Fachri
 *♂️ Gender* : Laki - laki
 *🕋 Agama* : Islam
-*⏰ Tanggal lahir* : 10 Juni 2007
-*🎨 Umur* : 15
-*🧮 Kelas* : 9
-*🧩 Hobby* : Nonton Hanime, Chatting, Recode script bot
-*💬 Sifat* : Idiot, Tidak Ramah, Kanjut, Prik, Pedofil
-*🗺️ Tinggal* : Indo, Riau, Indragiri Hulu, Air Molek
-*❤️ Suka* : warnah kuning & biru, Hanime, waifu, loli, trap, furry, kucing
-*💔 Benci* : autis, anak epep, seleb
+*⏰ Tanggal lahir* : 17.Okto.2k8
+*🎨 Umur* : 14
+*🧮 Kelas* : 2 smp
+*🧩 Hobby* : Chatting, Recode script bbot
+*🗺️ Tinggal* : Pemalang, jawa tengah, Indonesia
 
 *───────[ SOSIAL MEDIA ]───────*
-*📷 instagran* : @bot_whangsaf
-*🇫  Facebook* : Adison Fahri
-*🏮 Chanel Youtube* : Papah-Chan
-*🐈 Github:* FahriAdison
+*📷 instagran* : @sfdesign_id
+*🇫  Facebook* : @Saeful Fachri
+*🏮 Chanel Youtube* : SF Design
+*🐈 Github:* Ipulpachri (FachriBot)
 
 `
-conn.sendHydrated(m.chat, teksbio, wm, ppown, "wa.me/" + nomorown, "💬 ᴄʜᴀᴛs", null,null, [["ᴅᴏɴᴀsɪ", '.donasi'], [null, null],[null,null]], m)
+conn.sendHydrated(m.chat, teksbio, wm, ppown, "https://wa.me/" + nomorown, "💬 ᴄʜᴀᴛs", null,null, [["ᴅᴏɴᴀsɪ", '.donasi'], [null, null],[null,null]], fkontak)
 }
 handler.help = ['bioowner']
 handler.tags = ['info']
