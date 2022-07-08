@@ -18,9 +18,7 @@ ptt: true , contextInfo: { showAdAttribution: true,
       } 
    })
 }
-handler.help = ['sc']
+handler.command = handler.help = ['sc']
 handler.tags = ['info']
-handler.command = /^(sc)$/i
-handler.fail = null
-handler.exp = 100
+
 export default handler
