@@ -8,11 +8,11 @@ import moment from 'moment-timezone'
 
 let tags = {}
 const defaultMenu = {
-  before: `\n❏› Date: %date\n❏› Time: %time \n❏› Runtime: %uptime\n%readmore`,
+  before: `\n❏ › Date: %date\n❏ › Time: %time \n❏ › Runtime: %uptime\n%readmore`,
   header: '*❏═┅═━–〈 %category*',
   body: '┊々› %cmd %islimit %isPremium',
   footer: '┗━═┅═━––––––๑\n',
-  after: '\n⌕ ❙❘❙❙❘❙❚❙❘❙❙❚❙❘❙❘❙❚❙❘❙❙❚❙❘❙❙❘❙❚❙❘ ⌕\n',
+  after: '\n⌕ ❙❘❙❙❘❙❚❙❘❙❙❚❙❘❙❘❙❚❙❘❙❙❚❙❘❙❙❘❙❚❙❘ ⌕\n© FachriBot-MD',
 }
 
 let handler = async (m, { conn, usedPrefix: _p }) => {
@@ -146,19 +146,19 @@ function wish() {
   const time = moment.tz('Asia/Kolkata').format('HH')
   wishloc = ('Hi')
   if (time >= 0) {
-    wishloc = ('Selamat DiniHari,')
+    wishloc = ('Selamat DiniHari')
   }
   if (time >= 4) {
-    wishloc = ('Selamat Pagi Kak,')
+    wishloc = ('Selamat Pagi Kak')
   }
   if (time >= 12) {
-    wishloc = ('Selamat Siang Kak,')
+    wishloc = ('Selamat Siang Kak')
   }
   if (time >= 16) {
-    wishloc = ('️Selamat Sore Kak,')
+    wishloc = ('️Selamat Sore Kak')
   }
   if (time >= 23) {
-    wishloc = ('Selamat Malam Kak,')
+    wishloc = ('Selamat Malam Kak')
   }
   return wishloc
 }
