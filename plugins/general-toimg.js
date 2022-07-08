@@ -9,7 +9,7 @@ let handler = async (m, { conn }) => {
 		await m.reply('_In progress, please wait..._')
 		let img = await m.quoted.download()
 		let out = await webpToVideo(img)
-		await conn.sendMessage(m.chat, { video: out, gifPlayback: /gif/i.test(m.text), gifAttribution: ~~(Math.random() * 2) }, { quoted: m })
+		await conn.sendMessage(m.chat, { video: out, gifPlayback: /gif/i.test(m.text), gifAttribution: ~~(Math.random() * 2) }, { quoted: fkontak })
 	} else throw 'Reply a sticker!'
 }
 handler.help = ['toimg', 'togif']
