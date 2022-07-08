@@ -12,7 +12,7 @@ ptt: true , contextInfo: { showAdAttribution: true,
              body: 'Belajar Recorde Sendiri Hargain Yang Buat Nya', 
              description: '', 
              mediaType: 2, 
-           thumbnail: await (await fetch('https://telegra.ph/file/1e2f25d05bcf67d31c73e.jpg')).buffer(), 
+           thumbnail: await (await fetch('https://cdn-145.anonfiles.com/B7z1T0vey6/46470f97-1657286598/1657285997548.jpg')).buffer(), 
           mediaUrl: `https://youtu.be/35w7z9QFLwY` 
          } 
       } 
