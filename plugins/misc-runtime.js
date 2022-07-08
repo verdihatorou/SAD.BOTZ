@@ -9,7 +9,8 @@ let handler = async (m, { conn, args, command }) => {
       }) * 1000
     }
     let muptime = clockString(_muptime)
- conn.sendButtonDoc(m.chat, '*RUNTIME BOT*\n${muptime}\n', wm, 'Owner','.owner', ftextt, m)
+ m.reply(`*RUNTIME BOT*\n${muptime}\n`)
+
 }
 handler.help = ['runtime']
 handler.tags = ['info']
