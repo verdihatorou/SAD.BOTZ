@@ -18,9 +18,9 @@ ptt: true , contextInfo: { showAdAttribution: true,
       } 
    })
 }
-handler.help = ['sourcecode']
+handler.help = ['sc']
 handler.tags = ['info']
-handler.command = /^(sourcecode|sc|scbot|script|github)$/i
+handler.command = /^(sc)$/i
 handler.command = new RegExp
 handler.fail = null
 handler.exp = 100
