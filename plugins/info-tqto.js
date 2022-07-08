@@ -54,11 +54,12 @@ https://github.com/Aiinne
 *▸ - - - —「 KANG RECODE 」— - - - ◂*
 *❉ Fachri:*
 https://github.com/Ipulpachri
-*▸ - - - —「 SPESIAL HELPER 」— - - - ◂*
+*▸ - - - —「 SPESIAL HELPER  」— - - - ◂*
 *❉ Kannachan:*
 *❉ Johannes:*
 *❉ Krisna:*
 *❉ Rlxfly:*
+*❉ Haori:*
 `
 conn.sendButtonDoc(m.chat, tqto, wm,'Thanks','Bilek', m, { contextInfo: { externalAdReply: { showAdAttribution: true,
     mediaUrl: "https://Instagram.com/sfdesign.id",
