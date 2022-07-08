@@ -71,7 +71,7 @@ global.sgc = 'https://chat.whatsapp.com/GimZmhA2XTQFfPXk4XMrv6'
 global.sig = 'https://instagram.com/sfdesign_id'
 //========Url Template Buttons=========//
 global.dtu = 'ɪɴꜱᴛᴀɢʀᴀᴍ'
-global.urlnya = "https://www.instagram.com/sfdesign.id"
+global.urlnya = "https://www.instagram.com/sfdesign_id"
 
 //============= callButtons =============//
 global.dtc = 'ᴄᴀʟʟ ᴏᴡɴᴇʀ'
@@ -94,8 +94,8 @@ global.namebot = 'FachriBotz'
 global.nameown = 'Fachri'
 
 /*=========== FAKE SIZE ===========*/
-global.fsizedoc = '12345678' // default 10TB
-global.fpagedoc = '123'
+global.fsizedoc = '99999999' // default 10TB
+global.fpagedoc = '999'
 
 /*=========== HIASAN ===========*/
 // DEFAULT MENU
