@@ -45,19 +45,19 @@ handler.all = async function (m) {
 					title: global.ucapan,
 					body: wm,
 					mediaUrl: sgc,
-					description: 'simple bot esm',
+					description: 'simple bot',
 					previewType: "PHOTO",
 					thumbnail: await (await fetch(urls)).buffer(),
-					sourceUrl: "https://github.com/FahriAdison",					
+					sourceUrl: "https://github.com/Ipulpachri",					
 				}
 			}
 		}
 		global.fakeig = {
          contextInfo: { externalAdReply: { showAdAttribution: true,
-            mediaUrl: "https://Instagram.com/bot_whangsaf",
+            mediaUrl: "https://Instagram.com/sfdesign_id",
             mediaType: "VIDEO",
-            description: "https://Instagram.com/bot_whangsaf", 
-            title: 'Simple Bot Esm',
+            description: "https://Instagram.com/sfdesign_id", 
+            title: 'Simple Bot',
             body: wm,
             thumbnailUrl: pp,
             sourceUrl: sgc
@@ -85,7 +85,7 @@ handler.all = async function (m) {
             key: { 
                  fromMe: false,
                  participant: `0@s.whatsapp.net`, ...(m.chat ? 
-            { remoteJid: "17608914335-1625305606@g.us" } : {}) 
+            { remoteJid: "status@broadcast" } : {}) 
                        },
             message: { 
                "extendedTextMessage": {
@@ -101,7 +101,7 @@ handler.all = async function (m) {
             { fromMe: false,
             participant: `0@s.whatsapp.net`, ...(m.chat  ? 
             { remoteJid: "status@broadcast" } : {}) },
-            message: { "liveLocationMessage": { "caption":"by : Papah-Chan","h": `${wm}`, 'jpegThumbnail': fs.readFileSync('./thumbnail.jpg')}}
+            message: { "liveLocationMessage": { "caption":"by : Fachri-Bot","h": `${wm}`, 'jpegThumbnail': fs.readFileSync('./thumbnail.jpg')}}
            }
                
                   global.fliveLoc2 = {
@@ -109,7 +109,7 @@ handler.all = async function (m) {
             { fromMe: false,
             participant: `0@s.whatsapp.net`, ...(m.chat ? 
             { remoteJid: "status@broadcast" } : {}) },
-            message: { "liveLocationMessage": { "title": "Papah-Chan","h": wm, 'jpegThumbnail': fs.readFileSync('./thumbnail.jpg')}}
+            message: { "liveLocationMessage": { "title": "Fachri-Bot","h": wm, 'jpegThumbnail': fs.readFileSync('./thumbnail.jpg')}}
            }
                
                    global.ftoko = {
@@ -125,7 +125,7 @@ handler.all = async function (m) {
                                "jpegThumbnail": fs.readFileSync('./thumbnail.jpg') //Gambarnye
                            },
                            "title": wm, //Kasih namalu 
-                           "description": "Simple Bot Esm", 
+                           "description": "Simple Bot", 
                            "currencyCode": "USD",
                            "priceAmount1000": "20000000",
                            "retailerId": "Ghost",
@@ -158,7 +158,7 @@ handler.all = async function (m) {
                "groupInviteMessage": {
                    "groupJid": "17608914335-1625305606@g.us",
                    "inviteCode": "null",
-                   "groupName": "Kawan Papah-Chan", 
+                   "groupName": "Fachri-Bot", 
                    "caption": wm, 
                    'jpegThumbnail': fs.readFileSync('./thumbnail.jpg')
                }
