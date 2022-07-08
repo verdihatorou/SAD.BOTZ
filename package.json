@@ -1,7 +1,7 @@
 {
-    "name": "Sad-Bot",
+    "name": "FachriBot-MD",
     "version": "1.0.5",
-    "description": "Simple WhatsApp Bot ESM",
+    "description": "Baileys Multi Device",
     "main": "index.js",
     "type": "module",
     "directories": {
@@ -26,9 +26,9 @@
         "MD",
         "baileys-md"
     ],
-    "homepage": "https://github.com/FahriAdison/Sad-Multi-Device",
+    "homepage": "https://github.com/fachribotv2/CntkaBotz-MD",
     "author": {
-        "name": "Papah-Chan"
+        "name": "fachribotv2"
     },
     "repository": {
         "type": "git",
