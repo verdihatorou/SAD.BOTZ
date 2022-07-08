@@ -2,7 +2,7 @@ let util = require('util')
 let path = require('path')
 let fetch = require('node-fetch')
 let handler = async (m, { conn }) => {
-let vn = './haori.mp3'
+let vn = './bernyanyi.mp3'
 conn.sendFile(m.chat, vn, 'araara.m4a', null, m, true, {
 type: 'audioMessage', // paksa tanpa convert di ffmpeg
 ptt: true, contextInfo: { forwardingScore: 999, isForwarded: true,
