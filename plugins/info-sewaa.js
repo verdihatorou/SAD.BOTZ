@@ -5,9 +5,8 @@ let pepe = pp ? await (await fetch(pp)).buffer() : Buffer.alloc(0)
 let str = `Hai ${conn.getName(m.sender)} Mau Sewa?
 *SEWA BOT*
 ┏━━〔 ıll LIST HARGA llı 〕━
-┃⌬ 20K PERMANEN
-┃⌬ VIA DANA/GOPAY
-┃⌬ VIA PULSA 15K
+┃⌬ 20K PERMANEN (DANA)
+┃⌬ 15K (Pulsa•Indosat)
 ┗━━━━━━━━━━━━━㉿
 ┏━━〔 ıll KELEBIHAN llı 〕━
 ◎ BOT ON 24 JAM NONSTOP
