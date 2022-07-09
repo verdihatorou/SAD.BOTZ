@@ -6,7 +6,7 @@ let handler = async (m, { conn, text }) => {
 	await m.reply('_In progress, please wait..._')
 	for (let x = 0; x < res.media.length; x++) {
 		let caption = x === 0 ? res.caption.replace(/https:\/\/t.co\/[a-zA-Z0-9]+/gi, '').trim() : ''
-		conn.sendFile(m.chat, res.media[x].url, '', caption, m)
+		conn.sendFile(m.chat, res.media[x].url, '', caption, fkontak)
 	}
 }
 handler.help = ['twitter']
