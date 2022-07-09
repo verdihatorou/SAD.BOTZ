@@ -99,13 +99,12 @@ let handler = async (m, { conn, usedPrefix: _p }) => {
     //conn.sendHydrated(m.chat, text.trim(), conn.getName(conn.user.jid), await genProfile(conn, m), 'https://youtube.com/channel/UC0hs_I8N3JntK5vO6KogavQ', 'YouTube', null, null, [['Speedtest', _p + 'ping'], ['Owner', _p + 'owner']], m)
    // conn.sendMessage(m.chat, { video: { url: 'https://telegra.ph/file/c82d5c358495e8ef15916.mp4' }, gifPlayback: true, gifAttribution: ~~(Math.random() * 2), caption: text.trim(), footer: await conn.getName(conn.user.jid) , templateButtons: [{ quickReplyButton: { displayText: 'Speedtest', id: `${_p}ping` }}, { quickReplyButton: { displayText: 'Owner', id: `${_p}owner` }} ] })
    conn.sendButton(m.chat, `*${wish()}, ${name} 👋*`, text.trim(), ftextt, [['Speedtest', _p + 'ping'], ['Owner', _p + 'owner']], false, { quoted: ftroli, contextInfo: { externalAdReply: { showAdAttribution: true,
-    mediaUrl: "https://Instagram.com/sfdesign_id",
-    mediaType: "VIDEO",
-    description: "https://Instagram.com/sfdesign_id", 
-    title: wm2,
-    body: wm,
-    thumbnail: thumb,
-    sourceUrl: sgc,
+    title: wm2,  
+    body: 'FachriBot By Fachri', 
+    description: '', 
+    mediaType: 2, 
+    thumbnail: await (await fetch('https://telegra.ph/file/a9a6907db67ca1a0c0877.jpg')).buffer(), 
+    mediaUrl: `https://youtu.be/35w7z9QFLwY`
 }
 } })
 conn.sendFile(m.chat, './media/sakit.mp3', 'sakit.mp3', null, fkontak, true, {
