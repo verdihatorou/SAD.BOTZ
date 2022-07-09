@@ -8,8 +8,8 @@ conn.sendFile(m.chat, vn, 'Gaboleh-gitu.mp3', null, fkontak, true, {
 type: 'audioMessage', 
 ptt: true , contextInfo: { showAdAttribution: true,
          externalAdReply: { 
-             title: 'Recorde Sendiri Kapan Bisa Nya Kalo Pakai Sc Orang',  
-             body: 'Belajar Recorde Sendiri Hargain Yang Buat Nya ><', 
+             title: 'Recode Sendiri Kapan Bisa Nya Kalo Pakai Sc Orang',  
+             body: 'Belajar Recode Sendiri Hargain Yang Buat Ya ><', 
              description: '', 
              mediaType: 2, 
            thumbnail: await (await fetch('https://telegra.ph/file/a9a6907db67ca1a0c0877.jpg')).buffer(), 
