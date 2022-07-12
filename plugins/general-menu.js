@@ -8,11 +8,11 @@ import moment from 'moment-timezone'
 
 let tags = {}
 const defaultMenu = {
-  before: `\n❏ › Date: %date\n❏ › Time: %time \n❏ › Runtime: %uptime\n%readmore`,
+  before: `\n❏ › Date: %date\n❏ › Islam: %dateIslamic\n❏ › Time: %time\n❏ › Runtime: %uptime\n%readmore`,
   header: '*❏═┅═━–〈 %category*',
   body: '┊々› %cmd %islimit %isPremium',
   footer: '┗━═┅═━––––––๑\n',
-  after: '\n⌕ ❙❘❙❙❘❙❚❙❘❙❙❚❙❘❙❘❙❚❙❘❙❙❚❙❘❙❙❘❙❚❙❘ ⌕\n© FachriBot-MD',
+  after: '\n⌕ ❙❘❙❙❘❙❚❙❘❙❙❚❙❘❙❘❙❚❙❘❙❙❚❙❘❙❙❘❙❚❙❘ ⌕\n©FachriBot-MD@^%version',
 }
 
 let handler = async (m, { conn, usedPrefix: _p }) => {
@@ -30,6 +30,11 @@ let handler = async (m, { conn, usedPrefix: _p }) => {
       year: 'numeric',
       timeZone: 'Asia/Jakarta'
     })
+    let dateIslamic = Intl.DateTimeFormat(locale + '-TN-u-ca-islamic', { 
+      day: 'numeric', 
+      month: 'long', 
+      year: 'numeric' 
+    }).format(d) 
     let time = d.toLocaleTimeString(locale, { timeZone: 'Asia/Jakarta' })
     time = time.replace(/[.]/g, ':')
     let _uptime
