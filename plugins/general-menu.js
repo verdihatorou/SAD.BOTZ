@@ -106,7 +106,7 @@ let handler = async (m, { conn, usedPrefix: _p }) => {
    // conn.sendMessage(m.chat, { video: { url: 'https://telegra.ph/file/c82d5c358495e8ef15916.mp4' }, gifPlayback: true, gifAttribution: ~~(Math.random() * 2), caption: text.trim(), footer: await conn.getName(conn.user.jid) , templateButtons: [{ quickReplyButton: { displayText: 'Speedtest', id: `${_p}ping` }}, { quickReplyButton: { displayText: 'Owner', id: `${_p}owner` }} ] })
    await conn.sendButton(m.chat, `*${wish()}, ${name} 👋*`, text.trim(), ftextt, [['Speedtest', _p + 'ping'], ['Owner', _p + 'owner']], false, { quoted: ftroli, contextInfo: { externalAdReply: { showAdAttribution: true,
     title: wm2,  
-    body: `${pickRandom(['udah makan belum kak?', 'udh mandi belum kak?', 'Semangat ya kak!', 'Jangan begadang mulu ya!', 'jangan spam ya kak!', 'Jangan lupa donasi yak kak! >.<', 'Jaga kesehatan yaw kak!', 'Jangan lupa makan!', 'Jangan lupa istirahat yak! >.<', 'I Love you kak >.< 💗✨', 'Pr nya udh belum kak?', 'Jangan kebanyakan main hp yk! nanti sakit :‹'])}`,
+    body: 'FachriBot By Fachri',
     description: '', 
     mediaType: 2, 
     thumbnail: await (await fetch('https://telegra.ph/file/a9a6907db67ca1a0c0877.jpg')).buffer(), 
