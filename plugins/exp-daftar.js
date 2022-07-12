@@ -94,7 +94,7 @@ const listMessage = {
 'mediaUrl':global.sig,
 'mediaType':2,
 'previewType':'pdf',
-'title':global.titlebot,
+'title':wm,
 'body':global.titlebot,
 'thumbnail':await(await fetch('https://telegra.ph/file/4a7e5f18efaadec18a7a0.jpg')).buffer(),
 'sourceUrl':sgc}},
@@ -105,7 +105,7 @@ const listMessage = {
 {'buttonId':'.donasi','buttonText':{'displayText':'ᴅᴏɴᴀsɪ'},'type':1}
 ],
 'headerType':6}
-    await conn.sendMessage(m.chat,buttonMessage, { quoted:m})
+    await conn.sendMessage(m.chat,buttonMessage, { quoted:fkontak})
 }
 handler.help = ['daftar', 'register'].map(v => v + ' <nama>.<umur>')
 handler.tags = ['xp']
