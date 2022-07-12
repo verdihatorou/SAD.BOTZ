@@ -12,7 +12,7 @@ const defaultMenu = {
   header: '*❏═┅═━–〈 %category*',
   body: '┊々› %cmd %islimit %isPremium',
   footer: '┗━═┅═━––––––๑\n',
-  after: '\n⌕ ❙❘❙❙❘❙❚❙❘❙❙❚❙❘❙❘❙❚❙❘❙❙❚❙❘❙❙❘❙❚❙❘ ⌕\n©FachriBot-MD@^%version',
+  after: '\n⌕ ❙❘❙❙❘❙❚❙❘❙❙❚❙❘❙❘❙❚❙❘❙❙❚❙❘❙❙❘❙❚❙❘ ⌕\n©FachriBot-MD@^%3.1.2',
 }
 
 let handler = async (m, { conn, usedPrefix: _p }) => {
